@@ -4,5 +4,42 @@
 </head>
     <body>
         <h1>Contact</h1>
+        <br />
+        <p>Want to drop me a message? Certainly! It couldn't be easier. 
+            Just fill out your details below and drop me a line.  I look 
+            forward to hearing from you.</p>
+            <br />
+            <br />
+            <form>
+                <label>
+                    Name:
+            <input type="text" name="username">
+                </label>
+
+            <br />
+            <br />
+            <label>
+                Email:
+            <input type="email" name="email">
+            </label>
+            <br />
+            <br />
+                <fieldset><legend>Reason For Contacting</legend>
+                    <select name="Reason">
+                        <option value="Just to say hi!" selected>Just to say hi!</option>
+                        <option value="Job Opportunity">Job Opportunity</option>
+                        <option value="Site Feeback">Site Feeback</option>
+                        <option value="Damn it Tommy, you owe me money!!!">Damn it Tommy, you owe me money!!!</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <textarea name="comments" placeholder="Enter your comments…."></textarea>
+                </fieldset>
+                <input type="submit" name="submit" value="Submit">
+            </form>
+
+
+
         </body>
         </html>
